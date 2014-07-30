@@ -11,3 +11,35 @@
  *= require_self
  *= require_tree .
  */
+
+body{
+	background: url('/images/mountains.jpg') no-repeat center fixed;
+	background-size: cover;
+	margin: 5%;
+}
+
+div{
+	background: gray;
+}
+
+div#navbar{
+	background: #55607B;
+	padding: 1%;
+	margin-bottom: 10px;
+}
+
+div.textblock{
+	margin: 1%;
+	padding: 2%;
+}
+
+.underblock{
+	background: #55607B;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 33.33%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+	min-width:300px;	
+}
