@@ -19,27 +19,39 @@ body{
 }
 
 div{
-	background: gray;
+	background: #AABBCC;
 }
 
-div#navbar{
+table#navbar{
 	background: #55607B;
 	padding: 1%;
 	margin-bottom: 10px;
+	border: 2px;
+	border-radius: 10px;
+	width: 100%;
 }
 
 div.textblock{
 	margin: 1%;
 	padding: 2%;
+	text-align: center;
 }
 
 .underblock{
 	background: #55607B;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	width: 33.33%;
-	margin-top: 10px;
+	width: 33%;
+	margin: .165%;
 	margin-bottom: 10px;
 	float: left;
-	min-width:300px;	
+	min-width:300px;
+	border: 2px;
+	border-radius: 10px;
+}
+
+.navunit{
+	text-align: center;
+	background: #AAAABB;
+	width:25%;
 }
