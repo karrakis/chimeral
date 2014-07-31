@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  saying: MyString
+  hits: 1
+  ups: 1
+  downs: 1
+
+two:
+  saying: MyString
+  hits: 1
+  ups: 1
+  downs: 1
