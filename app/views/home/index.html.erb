@@ -1,10 +1,32 @@
 
 <%=%>
-<%100.times do%>
-	<%number = rand()%>
+<%total = @sayings.length%>
+<%used = Array.new%>
+<%x = 0%>
+<table>
+	<tr>
+<%total.times do |s|%>
+	<%x+=1%>
+	<td>
+	<%number = rand(total)%>
+	<%while used.include?(number) do number = rand(total) end%>
+	<%used << number%>
 	<span class="underblock">
 		<div class = "textblock">
-			<p><%= (number * 100).to_int %></p>
+			<p><%= @sayings[number]['saying'] %></p>
+		</div>
+
+		<div class = "textblock">
+			<a href="#">up</a> |
+			<a href="#">down</a> |
+			<a href="#">remove</a>
 		</div>
 	</span>
+	</td>
+	<%if x % 3 == 0 %>
+		</tr>
+		<tr>
+	<%end%>
 <%end%>
+	</tr>
+</table>
