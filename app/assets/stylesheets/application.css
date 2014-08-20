@@ -34,7 +34,13 @@ table#navbar{
 div.textblock{
 	margin: 1%;
 	padding: 2%;
+	height: 61%;
+	overflow: auto;
 	text-align: center;
+}
+
+div.links{
+	height:10%;
 }
 
 .underblock{
@@ -46,6 +52,7 @@ div.textblock{
 	margin-bottom: 10px;
 	float: left;
 	min-width:300px;
+	height: 150px;
 	border: 2px;
 	border-radius: 10px;
 }
